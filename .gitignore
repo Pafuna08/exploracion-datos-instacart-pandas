@@ -1,0 +1,9 @@
+# Entorno virtual
+.venv/
+
+# Datos (se descargan desde el enlace del README)
+data/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
