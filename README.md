@@ -39,7 +39,6 @@ Proyecto_de_datos/
 ├── data/                 (los CSV se ignoran; solo se versiona .gitkeep)
 │   └── .gitkeep
 ├── notebooks/
-│   ├── 00_entorno.ipynb
 │   └── Exploracion_de_datos_de_Instacart_con_Python_y_Pandas.ipynb
 ├── .gitignore
 ├── README.md
@@ -56,5 +55,4 @@ Proyecto_de_datos/
    ```
 3. Reconstruya el entorno: `python -m pip install -r requirements.txt`
 4. Abra JupyterLab desde la raíz del proyecto con `jupyter lab`.
-5. Ejecute `notebooks/00_entorno.ipynb` para comprobar que pandas está disponible.
-6. Abra `notebooks/Exploracion_de_datos_de_Instacart_con_Python_y_Pandas.ipynb` y ejecute *Run All*.
+5. Abra `notebooks/Exploracion_de_datos_de_Instacart_con_Python_y_Pandas.ipynb` y ejecute *Run All*.
