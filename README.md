@@ -31,9 +31,30 @@ https://drive.google.com/drive/folders/19vYGYdE0hI1DzvpBcCZskzJ0u2TZjwas?usp=dri
 
 Los archivos usan punto y coma (`;`) como separador.
 
+## Estructura del proyecto
+
+```
+Proyecto_de_datos/
+├── .venv/                (ignorada)
+├── data/                 (los CSV se ignoran; solo se versiona .gitkeep)
+│   └── .gitkeep
+├── notebooks/
+│   ├── 00_entorno.ipynb
+│   └── Exploracion_de_datos_de_Instacart_con_Python_y_Pandas.ipynb
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
+
 ## Cómo ejecutar
 
-1. Clone el repositorio y cree una carpeta `data/` junto al notebook.
-2. Copie los cinco CSV dentro de `data/`.
-3. Instale las dependencias: `pip install pandas jupyter`
-4. Abra `Exploracion_de_datos_de_Instacart_con_Python_y_Pandas.ipynb` y ejecute *Run All*.
+1. Clone el repositorio y copie los cinco CSV dentro de `data/`.
+2. Cree y active el entorno virtual:
+   ```
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1      # macOS/Linux: source .venv/bin/activate
+   ```
+3. Reconstruya el entorno: `python -m pip install -r requirements.txt`
+4. Abra JupyterLab desde la raíz del proyecto con `jupyter lab`.
+5. Ejecute `notebooks/00_entorno.ipynb` para comprobar que pandas está disponible.
+6. Abra `notebooks/Exploracion_de_datos_de_Instacart_con_Python_y_Pandas.ipynb` y ejecute *Run All*.
