@@ -1,4 +1,6 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
-data/*.csv
+
+# Datos crudos: se descargan aparte (ver README)
+data/raw/*.csv
