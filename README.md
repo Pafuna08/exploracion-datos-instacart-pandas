@@ -27,7 +27,7 @@ Lecciones 2, 3 y 4 del material *Preparar y estructurar datos con Python*, en or
 
 ## Datos
 
-Los CSV originales no se incluyen en el repositorio por su tamaño (`order_products.csv` pesa unos 90 MB). Descárguelos desde la carpeta de la actividad y cópielos en `data/raw/`:
+Los cinco CSV originales se conservan sin modificar en `data/raw/`. También están disponibles en la carpeta de la actividad:
 
 https://drive.google.com/drive/folders/19vYGYdE0hI1DzvpBcCZskzJ0u2TZjwas?usp=drive_link
 
@@ -52,7 +52,7 @@ Proyecto_de_datos/
 ├── requirements.txt
 │
 ├── data/
-│   ├── raw/                  (CSV originales; se ignoran en git)
+│   ├── raw/                  (CSV originales, sin modificar)
 │   │   ├── instacart_orders.csv
 │   │   ├── order_products.csv
 │   │   ├── products.csv
@@ -71,7 +71,7 @@ Proyecto_de_datos/
 
 ## Cómo ejecutar
 
-1. Clone el repositorio y copie los cinco CSV dentro de `data/raw/`.
+1. Clone el repositorio. Los cinco CSV ya vienen en `data/raw/`.
 2. Cree y active el entorno virtual:
    ```
    python -m venv .venv

@@ -1,0 +1,2 @@
+# Los datasets originales se guardan byte por byte, sin convertir saltos de linea
+data/raw/*.csv -text
